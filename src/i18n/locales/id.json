@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "quran": "Al-Qur'an",
+    "hadith": "Hadits",
+    "azkar": "Dzikir",
+    "tasbeeh": "Tasbih",
+    "prayer": "Sholat",
+    "settings": "Pengaturan"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "language": "Bahasa Aplikasi",
+    "appearance": "Tampilan",
+    "theme": {
+      "light": "Terang",
+      "dark": "Gelap",
+      "system": "Sistem",
+      "auto": "Auto"
+    }
+  }
+}

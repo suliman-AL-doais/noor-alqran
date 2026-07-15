@@ -1,0 +1,6 @@
+{
+  "name": "قرآن واذكار بدون انترنت",
+  "description": "تطبيق قرآن واذكار بدون انترنت شامل ومتميز للمسلم",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

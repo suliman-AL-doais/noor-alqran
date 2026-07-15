@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "Home",
+    "quran": "Quran",
+    "hadith": "Hadith",
+    "azkar": "Azkar",
+    "tasbeeh": "Tasbeeh",
+    "prayer": "Prayer",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "App Language",
+    "appearance": "Appearance",
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "auto": "Auto"
+    },
+    "notifications": {
+      "title": "Notifications & Reminders",
+      "enable": "Enable Notifications",
+      "desc": "Reminders for morning and evening Azkar",
+      "morning": "Morning Azkar Time",
+      "evening": "Evening Azkar Time"
+    },
+    "appearance_desc": "Day and Night Mode",
+    "quran": {
+      "title": "Quran Settings",
+      "fontFamily": "Font Family",
+      "fontSize": "Font Size"
+    },
+    "audio": "Audio & Recitation",
+    "general": "General",
+    "haptic": "Haptic Feedback",
+    "haptic_desc": "Enable or disable haptic feedback on interactions"
+  },
+  "home": {
+    "title": "Noor Al Quran",
+    "greeting": "Assalamu Alaikum",
+    "welcome": "Welcome to Quran and Azkar app",
+    "lastRead": "Last Read",
+    "surahAlKahf": "Surah Al-Kahf",
+    "ayah10": "Ayah 10 • Juz 15",
+    "continueReading": "Continue Reading",
+    "services": "Services"
+  },
+  "features": {
+    "eveningAzkar": {
+      "title": "Evening Azkar",
+      "desc": "Evening remembrances"
+    },
+    "morningAzkar": {
+      "title": "Morning Azkar",
+      "desc": "Morning remembrances"
+    },
+    "quran": {
+      "title": "Holy Quran",
+      "desc": "Read and listen"
+    },
+    "azkar": {
+      "title": "Azkar",
+      "desc": "Various remembrances"
+    },
+    "khatma": {
+      "title": "Khatma",
+      "desc": "Track completion"
+    },
+    "prayer": {
+      "title": "Prayer Times",
+      "desc": "Prayer schedule"
+    },
+    "tasbeeh": {
+      "title": "Tasbeeh",
+      "desc": "Digital counter"
+    },
+    "dua": {
+      "title": "Muslim Dua",
+      "desc": "Various supplications"
+    },
+    "hadith": {
+      "title": "Hadith",
+      "desc": "Prophetic traditions"
+    }
+  },
+  "prayer": {
+    "title": "Prayer Times",
+    "calculating": "Locating...",
+    "current_location": "Current Location",
+    "default_location": "Mecca",
+    "next_prayer": "Next Prayer",
+    "time_remaining": "Time Remaining",
+    "hijri_date": "Hijri Date",
+    "qibla": "Qibla Direction",
+    "qibla_desc": "Find the direction of Kaaba",
+    "fajr": "Fajr",
+    "sunrise": "Sunrise",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha",
+    "status_next": "Next Prayer",
+    "status_past": "Passed",
+    "status_upcoming": "Upcoming"
+  },
+  "reciters": {
+    "title": "Manage Reciters",
+    "desc": "Select your favorite reciter and download recitations for offline use",
+    "downloaded": "Downloaded",
+    "downloading": "Downloading",
+    "download": "Download",
+    "remove": "Remove",
+    "listen": "Listen",
+    "search": "Search for reciter...",
+    "active": "Active Reciter"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "quran": "Kuran",
+    "hadith": "Hadis",
+    "azkar": "Zikirler",
+    "tasbeeh": "Tesbih",
+    "prayer": "Namaz",
+    "settings": "Ayarlar"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Uygulama Dili",
+    "appearance": "Görünüm",
+    "theme": {
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem",
+      "auto": "Oto"
+    }
+  }
+}

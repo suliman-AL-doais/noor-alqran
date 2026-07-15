@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "ہوم",
+    "quran": "قرآن",
+    "hadith": "حدیث",
+    "azkar": "اذکار",
+    "tasbeeh": "تسبیح",
+    "prayer": "نماز",
+    "settings": "ترتیبات"
+  },
+  "settings": {
+    "title": "ترتیبات",
+    "language": "زبان",
+    "appearance": "ظاہری شکل",
+    "theme": {
+      "light": "روشن",
+      "dark": "تاریک",
+      "system": "نظام",
+      "auto": "خودکار"
+    }
+  }
+}

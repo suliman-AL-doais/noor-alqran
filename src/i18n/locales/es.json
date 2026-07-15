@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "quran": "Corán",
+    "hadith": "Hadiz",
+    "azkar": "Azkar",
+    "tasbeeh": "Tasbih",
+    "prayer": "Oración",
+    "settings": "Ajustes"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "language": "Idioma",
+    "appearance": "Apariencia",
+    "theme": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema",
+      "auto": "Auto"
+    }
+  }
+}

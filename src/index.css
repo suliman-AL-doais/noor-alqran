@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-cairo: "Cairo", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-urdu: "Noto Nastaliq Urdu", serif;
+  --font-amiri: "Amiri", serif;
+  --font-amiri-quran: "Amiri Quran", serif;
+  --font-scheherazade: "Scheherazade New", serif;
+  
+  --color-primary-50: #e6f3ee;
+  --color-primary-100: #cce7dd;
+  --color-primary-200: #99cfbc;
+  --color-primary-300: #66b89a;
+  --color-primary-400: #33a079;
+  --color-primary-500: #0F8A5F;
+  --color-primary-600: #0B6E4F;
+  --color-primary-700: #08523b;
+  --color-primary-800: #063728;
+  --color-primary-900: #041d15;
+  --color-primary-950: #010e09;
+  
+  --color-gold-300: #e4c86b;
+  --color-gold-400: #d6b549;
+  --color-gold-500: #C9A227;
+  --color-gold-600: #a1821f;
+  --color-gold-700: #796117;
+
+  /* Overriding default slate colors for warm premium reading */
+  --color-slate-50: #FAF4E8;
+  --color-slate-100: #F5EBD8;
+  --color-slate-200: #EFE3CC;
+  --color-slate-300: #D0C6B8;
+  --color-slate-400: #A89B8C;
+  --color-slate-500: #6E6254;
+  --color-slate-600: #5C5246;
+  --color-slate-700: #4A4238;
+  --color-slate-800: #2E2A26;
+  --color-slate-900: #1B1815;
+
+  --color-white: #FAF4E8; /* Replace pure white completely with soft card color */
+}
+
+body {
+  background: linear-gradient(135deg, #F5EBD8 0%, #EFE3CC 100%);
+  background-attachment: fixed;
+  color: #2E2A26;
+  min-height: 100vh;
+}
+
+.dark body {
+  background: linear-gradient(135deg, #021a12 0%, #032a1e 100%);
+  color: #FAF4E8;
+}
+
+/* Islamic Pattern Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l15 15-15 15L15 15zM0 30l15 15-15 15-15-15zM60 30l15 15-15 15-15-15zM30 60l15 15-15 15L15 75z' fill='%23C9A227' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-size: 120px 120px;
+  z-index: -1;
+}
+
+.dark body::before {
+  opacity: 0.05;
+}
+
+@layer utilities {
+  .glass-card {
+    @apply relative bg-gradient-to-br from-[#FAF4E8] to-[#F5EBD8] dark:from-[#063023]/80 dark:to-[#031d14]/90 backdrop-blur-xl border border-white/60 dark:border-[#d4af37]/30 shadow-[0_15px_40px_rgba(46,42,38,0.08),inset_0_2px_6px_rgba(255,255,255,0.6)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.5),inset_0_2px_4px_rgba(255,255,255,0.1)];
+  }
+
+  .glass {
+    @apply relative bg-gradient-to-br from-[#FAF4E8]/95 to-[#EFE3CC]/80 dark:from-[#063023]/80 dark:to-[#031d14]/90 backdrop-blur-xl border border-white/50 dark:border-[#d4af37]/30 shadow-[0_10px_30px_rgba(46,42,38,0.06),inset_0_2px_4px_rgba(255,255,255,0.5)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.5),inset_0_2px_4px_rgba(255,255,255,0.1)];
+  }
+
+  .glass-panel {
+    @apply relative bg-[#FAF4E8]/90 dark:bg-[#04241a]/90 backdrop-blur-2xl border border-white/40 dark:border-[#d4af37]/20 shadow-[0_8px_25px_rgba(46,42,38,0.05),inset_0_1px_3px_rgba(255,255,255,0.4)] dark:shadow-[0_10px_20px_rgba(0,0,0,0.4),inset_0_1px_2px_rgba(255,255,255,0.1)];
+  }
+}
+
+
+@layer base {
+  button, 
+  [role="button"] {
+    @apply active:scale-95 transition-transform duration-200;
+  }
+  a[href] {
+    @apply active:scale-[0.98] transition-transform duration-200;
+  }
+}

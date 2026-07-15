@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "quran": "Coran",
+    "hadith": "Hadith",
+    "azkar": "Invocations",
+    "tasbeeh": "Chapelet",
+    "prayer": "Prière",
+    "settings": "Paramètres"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue de l'app",
+    "appearance": "Apparence",
+    "theme": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système",
+      "auto": "Auto"
+    }
+  }
+}
